@@ -1,7 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { newHelper } from "framework";
 
 export default function Home() {
+  newHelper();
   return (
     <div className={styles.container}>
       <Head>
