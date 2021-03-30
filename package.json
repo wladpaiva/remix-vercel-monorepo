@@ -1,0 +1,17 @@
+{
+  "name": "vercel-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "yarn workspaces run test",
+    "create": "cd ./packages; npx ./create-app ${1}",
+    "dev": "npm-run-all --parallel front docs",
+    "front": "yarn workspace front dev",
+    "docs": "yarn workspace docs dev"
+  }
+}
