@@ -5,3 +5,7 @@
 - `yarn run create <PROJECT_NAME>`
 
 ---
+
+#### TODO
+
+- Deploy new project to Vercel
