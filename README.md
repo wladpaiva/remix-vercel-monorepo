@@ -27,7 +27,3 @@ git diff --quiet HEAD^ HEAD -- :/packages/front :/packages/framework
 Now, if the `framework` module changes, a new deployment for the `front` project will be created, and for other projects that may also depend on it.
 
 ---
-
-#### TODO
-
-- Deploy new project to Vercel
