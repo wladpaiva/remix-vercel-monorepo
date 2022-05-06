@@ -11,6 +11,7 @@
   "dependencies": {
     "@remix-run/react": "^1.2.2",
     "@remix-run/vercel": "^1.2.2",
+    "framework": "*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "remix": "^1.2.2"
